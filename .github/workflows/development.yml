@@ -21,7 +21,6 @@ jobs:
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          args: deploy --dir=build --prod
           heroku_api_key: 'b5db99c2-1439-4b6d-9ac1-4d4880004d07'
           heroku_app_name: 'portfolio-panorama-develop'
           heroku_email: 'stacknonva@gmail.com'
